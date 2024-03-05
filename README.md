@@ -27,6 +27,9 @@ console.log(greet('John', 'fr')); // Outputs: Bonjour, John!
 -  Français (fr)
 -  Español (es)
 -  Deutsch (de)
+-  Português (pt)
+-  italiano (it)
+
 
 ## Contributeur
 
