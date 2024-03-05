@@ -7,7 +7,7 @@ function greet(name, language = 'en') {
         pt: `Olá, ${name}!`,
         it: `Ciao, ${name}!`,
         fi: `Hei, ${name}!`,
-        bg: `Здравейте ${name}!`,
+        bg: `Здравейте, ${name}!`,
     };
 
     return greetings[language] || greetings.en;
