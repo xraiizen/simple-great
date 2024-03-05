@@ -23,3 +23,11 @@ test('greeting in Portuguese', () => {
 test('greeting in Italian', () => {
   expect(greet('John', 'it')).toBe('Ciao, John!');
 });
+
+test('greeting in Finnish', () => {
+  expect(greet('John', 'fi')).toBe('Hei, John!');
+});
+
+test('greeting in Bulgarian', () => {
+  expect(greet('John', 'bg')).toBe('Здравейте, John!');
+});
