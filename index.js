@@ -3,7 +3,9 @@ function greet(name, language = 'en') {
         en: `Hello, ${name}!`,
         fr: `Bonjour, ${name}!`,
         es: `Hola, ${name}!`,
-        de: `Hallo, ${name}!`
+        de: `Hallo, ${name}!`,
+        pt: `Olá, ${name}!`,
+        it: `Ciao, ${name}!`,
     };
 
     return greetings[language] || greetings.en;
