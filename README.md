@@ -1,13 +1,13 @@
-# simple-greet
+# simple-great
 
 Une bibliothèque simple et légère pour générer des messages de bienvenue dans différentes langues.
 
 ## Installation
 
-Installez simple-greet avec npm :
+Installez simple-great avec npm :
 
  ```
- npm install simple-greet
+ npm install simple-great
  
  ```
 
@@ -15,7 +15,7 @@ Installez simple-greet avec npm :
 ## Utilisation
 
 ```
-const greet = require('simple-greet');
+const greet = require('simple-great');
 
 console.log(greet('John')); // Outputs: Hello, John!
 console.log(greet('John', 'fr')); // Outputs: Bonjour, John!
